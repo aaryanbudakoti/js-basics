@@ -18,6 +18,7 @@ const myHeroes = ["Ironman", "Spiderman", "Thor", "Hulk"];
 const nums = new Array(); // this is an empty array
 const nums2 = new Array(10); // this will create an array of length 10 with all values as undefined
 const nums3 = new Array(1,2,3,4,5); // this will create an array with the values 1,2,3,4,5
+const nums4= new Array(10).fill(0); // this will create an array of length 10 with all values as 0
 
 
 
@@ -39,3 +40,5 @@ console.log(myHeroes);
 
 myHeroes.splice(2,0,"Doctor Strange"); // this will add "Doctor Strange" at index 2 without removing any element
 console.log(myHeroes);
+
+
