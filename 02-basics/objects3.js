@@ -35,7 +35,8 @@ jsUser.greeting = function(){
 
 console.log(jsUser.greeting());
 jsUser.greeting2 = function(){  
-    console.log(`Hello ${this.name}`);
+    console.log(`Hello ${this.name}`); // 'this' keyword refers to the current object, in this case jsUser, so it will print "Hello sonpari"
 }
 
 console.log(jsUser.greeting2());
+
