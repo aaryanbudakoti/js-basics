@@ -34,3 +34,15 @@ const football = () => {
 
 football()
 
+// const addtwo = (num1,num2) => {
+    // return num1 + num2
+
+// } 
+// const addtwo = (num1,num2) => num1 + num2
+
+const addtwo = (num1,num2) => (num1 + num2) // if we have more than one line of code, we need to use curly braces and return statement, but if we have only one line of code, we can omit the curly braces and return statement
+
+
+console.log(addtwo(5,10));
+
+
