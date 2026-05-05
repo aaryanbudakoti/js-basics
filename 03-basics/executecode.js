@@ -23,3 +23,8 @@ function foo() {
 }
 foo();
 
+// call stack
+// 1. global execution context is created and pushed to the call stack
+// 2. foo function execution context is created and pushed to the call stack
+// 3. foo function is executed and popped from the call stack
+// 4. global execution context is popped from the call stack when the program ends
