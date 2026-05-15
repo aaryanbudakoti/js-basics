@@ -38,5 +38,7 @@ for (let i = 1; i <= 10; i++) {
     if (i % 2 === 0) {
         continue; // skip the rest of the loop body for even numbers
     }
-    console.log(i); // this will only print odd numbers
+    console.log(i); // this will only print odd numbers     
 }
+
+
